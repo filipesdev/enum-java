@@ -12,9 +12,9 @@ public class Main {
 
         System.out.println(order);
 
-        OrderStatus os1 = OrderStatus.DELIVERED;
+        OrderStatus os1 = OrderStatus.DELIVERED; // OrderStatus os1 sempre vai ser DELIVERED, nunca vai mudar o seu valor.
 
-        OrderStatus os2 = OrderStatus.valueOf("PROCESSING");
+        OrderStatus os2 = OrderStatus.valueOf("PROCESSING"); //  OrderStatus.valueOf("DELIVERED"); poderia usar  diversos valores vindo do Front-End por exemplo.
 
         System.out.println(os1);
         System.out.println(os2);
