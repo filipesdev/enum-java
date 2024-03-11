@@ -9,6 +9,8 @@ import java.text.SimpleDateFormat;
 public class Main {
     public static void main(String[] args) throws ParseException {
 
+        // Instanciar manualmente (hard code) os objetos mostrados abaixo e mostre-os na tela do terminal, conforme exemplo.
+
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss"); // mascara do sdf
 
         Comment firstComment = new Comment("Have a nice trip!");
