@@ -22,7 +22,18 @@ public class Main {
         firstPost.addComment(firstComment); // adicionando o comentario "firstComment" para o post firstPost
         firstPost.addComment(secondComment); // adicionando o comentario "secondComment" para o post firstPost
 
+        Comment thirdComment = new Comment("Good night");
+        Comment forthComment = new Comment("May the force be with you");
+
+        Post secondPost = new Post(
+                sdf.parse("28/07/2018 23:14:19"),
+                "Good night, guys!",
+                "See you tomorrow!",
+                5);
+        secondPost.addComment(thirdComment);
+        secondPost.addComment(forthComment);
 
         System.out.println(firstPost);
+        System.out.println(secondPost);
     }
 }
